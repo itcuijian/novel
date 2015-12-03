@@ -1,0 +1,441 @@
+#reglog{
+	background: #fff;
+	padding: 0;
+}
+#reglog ul.nav{
+	list-style: none;
+	background: #666;
+	position: fixed;
+	top: 5px;
+	right: 10px;
+	height: 30px;
+	border-radius: 3px;
+	margin-top: 0;
+	padding-left: 0;
+}
+#reglog ul.nav li{
+	float: left;
+	text-align: center;	
+}
+#reglog ul.nav li:hover{
+	background: #E78170;
+	color: black;
+}
+#reglog ul.nav li a{
+	width: 48px;
+	height: 30px;
+	padding: 0 5px;
+	color: #ccc;
+	text-align: center;
+	text-decoration: none;
+	line-height: 29px;
+	display: inline-block;
+}
+#reglog ul.nav li a:hover{
+	background: #E78170;
+	color: #fff;
+	text-decoration: none;
+}
+#reglog div.logo{
+	text-align: center;
+	margin-top: 50px;
+}
+#reglog h4{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	color: #999;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+	height: 11px;
+	width: 700px;
+}
+#reglog h4 span{
+	background: #fff;
+	padding: 0 25px;
+}
+#reglog h4 span a{
+	padding: 0 10px;
+	color: #999;
+	font-weight: bold;
+	text-decoration: none;
+}
+#reglog h4 span a.active{
+	color: #A20E20;
+}
+#reglog h4 span a:hover{
+	text-decoration: none;
+	color: #737171;
+}
+#reglog h4 span a.active:hover{
+	color: #525050;
+}
+#reglog div.content{
+	margin-top: 40px;
+	padding-left: 220px;
+}
+#reglog div.content ul{
+	list-style: none;
+	padding: 0 0 30px 0;
+	width: 500px;
+}
+#reglog div.content ul li{
+	width: 500px;
+	height: 80px;
+	padding-bottom: 10px;
+	height: 40px;
+}
+#reglog div.content ul li span{
+	font-size: 22px;
+	color: #A9A9A9;
+	width: 110px;
+	display: block;
+	float: left;
+	text-align: right;
+	line-height: 180%;
+}
+#reglog div.content ul li input.text{
+	height: 38px;
+	width: 320px;
+	font-size: 22px;
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+#reglog div.content ul li input.code{
+	height: 38px;
+	width: 200px;
+	font-size: 22px;
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding-left: 5px;	
+}
+#reglog div.content ul li input.submit{
+	width: 330px;
+	height: 48px;
+	margin: 5px 0 0 110px;
+	background: #49BE38;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+#reglog div.content ul li input.login{
+	width: 330px;
+	height: 48px;
+	margin: 5px 0 0 110px;
+	background: #049cdb;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+#reglog div.content ul li img{
+	width: 104px;
+	height: 40px;
+	display: block;
+	float: right;
+	margin-right: 62px;
+}
+#author{
+	background: #fff;
+}
+#author div.left{
+	position: fixed;
+	float: left;
+	width: 150px;
+	height: 100%;
+	background: #ddd;
+}
+#author div.left div.logo{
+	height: 100px;
+	border-bottom: 1px solid #999;
+}
+#author div.left ul{
+	list-style: none;
+	margin-top: 60px;
+}
+#author div.left ul li{
+	height: 40px;
+	padding: 10px 0;
+}
+#author div.left ul li.active{
+	background: #fff;
+	border-left: 3px solid #A20E20;
+}
+#author div.left ul li a{
+	margin: 0 0 0 20px;
+	color: black;
+	line-height: 26px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#author div.left ul li a:hover{
+	color: #999;
+}
+#author div.top{
+	position: fixed;
+	top: 0;
+	left: 150px;
+	width: 100%;
+	height: 50px;
+	background: #ddd;
+	z-index: 100;
+}
+#author div.top p{
+	margin: 25px 50px 0 0;
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	color: #A20E20;
+}
+#author div.top div.out{
+	float: left;
+	width: 130px;
+	margin: 5px 0 0 30px;
+}
+#author div.top div.out a{
+	width: 50px;
+	height: 30px;
+	background: #A20E20;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+	margin: 10px 0 0 15px;
+	text-align: center;
+	line-height: 29px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+#author div.top div.out a:hover{
+	text-decoration: none;
+	background: #E74256;
+}
+#author div.right{
+	margin: 50px 0 0 150px;
+	float: left;
+}
+#author div.right div.add form ul{
+	list-style: none;
+	margin: 30px 0 0 0;
+}
+#author div.right div.add form ul li{
+	margin-top: 10px;
+}
+#author div.right div.add form ul li.notice{
+	margin-top: 20px;
+	background: #F9F9F9;
+	padding: 10px 10px;
+}
+#author div.right div.add form ul li label{
+	width: 80px;
+	text-align: right;
+	vertical-align: top;
+}
+#author div.right div.add form ul li input.text{
+	width: 200px;
+}
+#author div.right div.add form ul li input.submit{
+	margin-left: 80px;
+}
+#author div.right div.add form ul li select{
+	width: 103px;
+	height: 26px;
+}
+#author div.right div.add form ul li textarea{
+	width: 400px;
+}
+#author div.right div.add form ul li span{
+	vertical-align: top;
+	color: #999;
+}
+#author div.right div.add form ul li strong{
+	margin: 0 8px 0 3px;
+	padding: 0;
+	font-weight: none;
+}
+#author div.right table.manage{
+	margin: 30px 0 0 30px;
+	width: 1000px;
+}
+#author div.right table.manage tr:hover{
+	background: #ffffcc;
+}
+#author div.right table.manage tr.top:hover{
+	background: #fff;
+}
+#author div.right table.manage tr th,#author div.right table.manage tr td{
+	text-align: center;
+	line-height: 30px;
+}
+#author div.right table.manage tr th{
+	border-bottom: 2px solid #ccc;
+	font-size: 16px;
+}
+#author div.right table.manage tr td{
+	border-bottom: 1px solid #ccc;
+}
+#author div.right table.manage tr td span{
+	color: #811a37;
+	font-weight: bold;
+}
+#author div.right ul.navs{
+	list-style: none;
+	background: #938F8F;
+	padding: 0px 0 0 100px;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 100;
+}
+#author div.right ul.navs li{
+	float: left;
+	padding: 0 10px 0 10px;
+	
+}
+#author div.right ul.navs li.active{
+	background: #fff;
+}
+#author div.right ul.navs li.active:hover{
+	background: #fff;
+}
+#author div.right ul.navs li.active a{
+	color: #938F8F;
+	text-decoration: none;
+}
+#author div.right ul.navs li:hover{
+	background: #ddd;
+	height: 50px;
+}
+#author div.right ul.navs li:hover a{
+	color: #938F8F;
+}
+#author div.right ul.navs li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	height: 50px;
+	padding-top: 12px;
+	display: block;
+}
+#author div.right ul.navs li a:hover{
+	text-decoration: none;
+}
+#author div.right div.cols{
+	display: block;
+	height: 50px;
+}
+#author div.right div.inside{
+	margin: 60px 0 0 30px;
+}
+#author div.right div.inside h3{
+	border-bottom: 1px dashed #ccc;
+}
+#author div.right div.inside ul{
+	list-style: none;
+	text-align: left;
+}
+#author div.right div.inside ul li{
+	margin-bottom: 10px;
+}
+#author div.right div.inside ul li label{
+	width: 150px;
+	text-align: right;
+}
+#author div.right div.inside ul li input{
+	width: 155px;
+	height: 26px;
+}
+#author div.right div.inside ul li input.submit{
+	width: 155px;
+	height: 28px;
+	margin-left: 150px;
+	background: #A20E20;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+}
+#author div.right div.inside ul li select{
+	width: 155px;
+	height: 26px;
+}
+#author div.right div.section{
+	margin: 20px 0 0 30px;
+}
+#author div.right div.section table{
+	
+}
+#author div.right div.section table tr td{
+	padding-bottom: 20px;
+	vertical-align: top;
+}
+#author div.right div.section table tr td label{
+	width: 100px;
+	text-align: right;
+
+}
+#author div.right div.section table tr td input.text{
+	width: 200px;
+	height: 26px;
+}
+#author div.right div.section table tr td input.submit{
+	width: 155px;
+	height: 28px;
+	background: #A20E20;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+}
+#author div.right div.section table tr td select{
+	width: 155px;
+	height: 26px;
+}
+#author div.right div.section table tr td div{
+	width: 800px;
+	height: 350px;
+}
+#author div.right div.section table tr td div span.cke_reset{
+	height: 350px;
+}
+#author div.right div.section table tr td span{
+	margin-left: 10px;
+	color: #999;
+}
+#author div.right div.sur{
+	margin: 20px 0 0 30px;
+}
+#author div.right div.sur div.img{
+	width: 242px;
+	height: 322px;
+	border: 1px solid #666;
+}
+#author div.right div.sur div.img img{
+	width: 240px;
+	height: 320px;
+}
+#author div.right div.sur table tr.input td{
+	padding-top: 15px;
+}
+#author div.right div.sur div.notice{
+	margin-top: 20px;
+	background: #F9F9F9;
+	padding: 10px 10px;
+}
+#author div.page{
+	margin: 0 0 0 30px;
+	width: 1000px;
+}
+#author div.page ul{
+	padding: 0 5px 0 0;
+	margin: 5px 0 0 0;
+	float: right;
+}
+#author div.page ul.pagination li a{
+	background: #F9F5F5;
+}

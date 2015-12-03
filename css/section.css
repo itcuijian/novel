@@ -1,0 +1,345 @@
+body{
+	background: #F5E1BA;
+}
+div.back{
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+div.back a{
+	font-size: 14px;
+	color: #333;
+}
+div.back label{
+	color: #cd3a00;
+}
+div.content{
+	float: left;
+	width: 980px;
+	margin-top: 20px;
+	background: #fff2d9;
+	box-shadow: 0 0 5px #D3BFBF;
+	padding-bottom: 40px;
+	font-family: "宋体";
+}
+div.content h3{
+	font-size: 16px;
+	font-weight: normal;
+	color: #837f7f;
+	padding-left: 20px;
+}
+div.content h1{
+	font-size: 32px;
+	font-weight: normal;
+	color: #303030;
+	text-align: center;
+}
+div.content span.author{
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	display: block;
+}
+div.content span.author a{
+	color: #303030;
+	font-weight: bold;
+}
+div.content span.info{
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	display: block;
+	margin-top: 10px;
+	color: #888;
+}
+div.content span.info em{
+	margin-right: 20px;
+	font-style: normal;
+	font-family: Arial;
+	color: #303030;
+	font-size: 12px;
+}
+div.content span.line{
+	width: 900px;
+	height: 2px;
+	display: block;
+	margin: 10px 40px;
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 0 3px #999;
+}
+div.content div.detail{
+	width: 100%;
+	margin-top: 30px;
+	padding: 0 80px;
+	color: #343434;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+div.content div.detail p{
+	line-height: 26px;
+	padding-bottom: 5px;
+}
+div.content div.work{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+div.content div.work a{
+	font-size: 28px;
+	color: #303030;
+	margin: 0 20px;
+	border: 1px solid #999;
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+}
+div.content div.work a:hover{
+	background: #F5E1BA;
+}
+div.content div.order{
+	width: 780px;
+	background: #fff;
+	margin: 0 100px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px 15px;
+}
+div.content div.order div.charge{
+	color: #828282;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.content div.order div.charge span{
+	font-size: 22px;
+	color: #908C8C;
+}
+div.content div.order div.charge div.add{
+	background: #f2f1ef;
+	margin-top: 15px;
+	padding: 20px 20px 10px 20px;
+}
+div.content div.order div.charge div.add p{
+	font-size: 16px;
+	color: #A84444;
+}
+div.content div.order div.charge div.add p a{
+	margin-left: 150px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 26px;
+	padding: 10px 15px;
+	background: #CC884B;
+	color: #fff;
+	text-decoration: none;
+}
+div.comment{
+	width: 980px;
+	margin-top: 40px;
+	background: #fff;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+div.comment h3{
+	margin: 0;
+	font-size: 18px;
+	color: #A20E20;
+	border-bottom: 2px solid #A20E20;
+	padding-bottom: 5px;
+}
+div.comment table{
+	padding: 0 40px;
+	display: block;
+}
+div.comment table tbody{
+	margin-top: 10px;
+	display: block;
+	padding: 5px;
+}
+div.comment table tbody tr td.left{
+	vertical-align: top;
+}
+div.comment table tbody tr td.left img{
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+}
+div.comment table tbody tr td.right{
+	padding-left: 10px;
+	vertical-align: top;
+	width: 900px;
+}
+div.comment table tbody tr td.right div.top{
+	width: 800px;
+	background: #F2CFCF;
+	padding: 0 5px;
+	color: #666;
+	line-height: 26px;
+}
+div.comment table tbody tr td.right div.top span.line{
+	padding: 0 20px;
+	color: #eee;
+}
+div.comment table tbody tr td.right div.contents{
+	margin-top: 20px;
+	text-indent: 24px;
+	width: 800px;
+	word-wrap: break-word;
+	padding: 0 10px;
+	min-height: 50px;
+}
+div.comment table tbody tr td div.noCom{
+	width: 800px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 10px auto;
+}
+div.comment div.publish{
+	width: 840px;
+	margin: 5px auto;
+	background: #E8D2D2;
+	padding: 0 30px;
+}
+div.comment div.publish textarea{
+	width: 600px;
+	height: 100px;
+	margin: 20px auto;
+}
+div.comment div.publish a{
+	float: right;
+	margin-top: 50px;
+	width: 80px;
+	height: 40px;
+	background: #676161;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	letter-spacing: 5px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+}
+div.tips{
+	width: 200px;
+	height: 200px;
+	z-index: 9999;
+	display: none;
+	position: fixed;
+	background: #fff;
+}
+div.tips div.top{
+	width: 100%;
+	height: 36px;
+	background: #999;
+}
+div.tips div.top span{
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+
+}
+div.tips p{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+div.tips p a{
+	border: 1px solid #303030;
+	padding: 3px;
+	text-decoration: none;
+	color: #666;
+}
+div.tips p a:hover{
+	background: #CA8649;
+	color: #fff;
+}
+div.say{
+	position: fixed;
+	z-index: 9999;
+	width: 160px;
+	height: 120px;
+	background: #fff;
+	border: 1px solid #3F3F3F;
+	border-radius: 3px;
+	text-align: center;
+	display: none;
+}
+div.say div.top{
+	width: 100%;
+	height: 20px;
+	background: #3F3F3F;
+}
+div.say p{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+div.say a{
+	font-size: 14px;
+	border: 1px solid #303030;
+	width: 20px;
+	margin-top: 20px;
+	padding: 2px 10px 4px 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #3F3F3F;
+}
+div.comment div.page{
+	margin: 10px auto;
+	width: 850px;
+	height: 40px;
+	display: block;
+}
+div.comment div.page ul{
+	clear: both;
+	padding: 0 5px 0 0;
+	margin: 5px;
+	float: right;
+}
+div.comment div.page ul.pagination li a{
+	background: #F9F5F5;
+}
+div.sidebar{
+	position: fixed;
+	top: 124px;
+}
+div.sidebar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+div.sidebar ul li{
+	text-align: center;
+}
+div.sidebar ul li a{
+	color: #303030;
+	text-decoration: none;
+	width: 52px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	border-bottom: 1px solid #F5E1BA;
+	background: #D3C1A0;
+}
+div.sidebar ul li a.first{
+	border-top-right-radius: 5px;
+}
+div.sidebar ul li a.last{
+	border: none;
+	margin-bottom: 1px;
+	border-bottom-right-radius: 5px;
+}
+div.sidebar ul li a:hover{
+	color: #fff;
+	background: #C5B393;
+}

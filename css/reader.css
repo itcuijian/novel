@@ -1,0 +1,423 @@
+div.reader{
+	margin: 100px 0 0 0;
+}
+div.reader div.top{
+	float: left;
+	background: #d8d8d8;
+	width: 980px;
+	height: 150px;
+	border: 1px solid #ccc;
+}
+div.reader div.top div.pic{
+	float: left;
+	margin: 15px 0 0 15px;
+	border: 1px solid #ddd;
+}
+div.reader div.top ul{
+	float: left;
+	margin: 20px 0 0 0;
+	padding-left: 20px;
+	list-style: none;
+	width: 600px;
+}
+div.reader div.top ul li{
+	width: 500px;
+	height: 30px;
+	padding: 0;
+	text-align: left;
+}
+div.reader div.top ul li p{
+	float: left;
+	margin: 0 40px 0 0;
+	font-size: 16px;
+}
+div.reader div.top ul li p span{
+	font-weight: bold;
+	margin-left: 10px;
+}
+div.reader div.bottom{
+	float: left;
+	width: 980px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background: #fff;
+	zoom: 1;
+}
+div.reader div.bottom div.menu{
+	float: left;
+	width: 150px;
+	height: 100%;
+	background: #ADACAC;
+}
+div.reader div.bottom div.menu ul{
+	list-style: none;
+	margin: 40px 0 40px 20px;
+	padding: 0;
+}
+div.reader div.bottom div.menu ul li{
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+	color: #303030;
+}
+div.reader div.bottom div.menu ul li a{
+	color: #303030;
+	text-decoration: none;
+}
+div.reader div.bottom div.menu ul li a:hover{
+	text-decoration: underline;
+}
+div.reader div.bottom div.menu ul li.active{
+	background: #fff;
+	border-left: 3px solid #A20E20;
+}
+div.reader div.bottom div.mymain{
+	float: right;
+	width: 828px;
+	height: 100%;
+}
+div.reader div.bottom div.mymain div.set ul{
+	list-style: none;
+	margin-top: 45px;
+}
+div.reader div.bottom div.mymain div.set ul li{
+	margin-bottom: 15px;
+}
+div.reader div.bottom div.mymain div.set ul li label{
+	width: 75px;
+	text-align: right;
+	margin: 0;
+	margin-right: 5px;		
+}
+div.reader div.bottom div.mymain div.set ul li label.info{
+	vertical-align: top;
+}
+div.reader div.bottom div.mymain div.set ul li input{
+	width: 200px;
+}
+div.reader div.bottom div.mymain div.set ul li input.radio{
+	width: 20px;
+	display: inline;
+	padding: 0;
+	margin: 0 0 0 10px;
+}
+div.reader div.bottom div.mymain div.set ul li input.submit{
+	margin: 20px 0 0 80px;
+	height: 40px;
+	background: #49BE38;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+div.reader div.bottom div.mymain div.set ul li textarea{
+	width: 200px;
+}
+div.reader div.bottom div.mymain div.set ul li span{
+	vertical-align: top;
+	margin-left:  5px;
+	color: red;
+}
+div.reader div.bottom div.photo{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+div.reader div.bottom div.photo form label.first{
+	position: relative;
+	float: left;
+	width: 76px;
+	line-height: 35px;
+}
+div.reader div.bottom div.photo form div.file{
+	padding-left: 76px;
+	width: 300px;
+}
+div.reader div.bottom div.photo form div.pic1{
+	width: 302px;
+	height: 302px;
+	border: 1px solid #999;
+	float: left;
+	text-align: center;
+	margin-left: 76px;
+	overflow: hidden;
+}
+div.reader div.bottom div.photo form div.pic{
+	width: 800px;
+	height: 302px;
+}
+div.reader div.bottom div.photo form div.pic2{
+	width: 122px;
+	height: 122px;
+	border: 1px solid #999;
+	float: left;
+	margin: 90px 0 0 40px;
+	overflow: hidden;
+}
+div.reader div.bottom div.photo form div.pic3{
+	width: 62px;
+	height: 62px;
+	border: 1px solid #999;
+	float: left;
+	margin: 120px 0 0 40px;
+	overflow: hidden;
+}
+div.reader div.bottom div.photo form input.submit{
+	float: left;
+	margin: 10px 0 20px 76px;
+	background: #49BE38;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+}
+div.reader div.bottom div.photo form img.preview{
+	display: none;
+}
+div.reader div.bottom div.mymain div.book{
+	padding: 20px;
+	
+}
+div.reader div.bottom div.mymain div.book h5{
+	color: #A20E20;
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #A20E20;
+}
+div.reader div.bottom div.mymain div.book div.head{
+	margin-top: 15px;
+	padding: 5px 0;
+	background: #e4e8ea;
+	overflow: hidden;
+	color: #4b7b9c;
+}
+div.reader div.bottom div.mymain div.book div.head span{
+	display: inline-block;
+}
+div.reader div.bottom div.mymain div.book div.head span.kind{
+	width: 60px;
+	text-align: center;
+}
+div.reader div.bottom div.mymain div.book div.head span.name{
+	width: 85px;
+	margin-left: 10px;
+}
+div.reader div.bottom div.mymain div.book div.head span.author{
+	width: 75px;
+	margin: 0 10px;
+}
+div.reader div.bottom div.mymain div.book div.head span.last{
+	width: 280px;
+	margin-left: 10px;
+}
+div.reader div.bottom div.mymain div.book div.head span.time{
+	margin: 0 10px;
+	width: 67px;
+	text-align: center;
+}
+div.reader div.bottom div.mymain div.book div.head span.work{
+	margin-left: 63px;
+}
+div.reader div.bottom div.mymain div.book ul{
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	font-size: 14px;
+	list-style: none;
+}
+div.reader div.bottom div.mymain div.book ul li{
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+div.reader div.bottom div.mymain div.book ul li:hover{
+	background: #F7FADF;
+}
+div.reader div.bottom div.mymain div.book ul li a{
+	display: inline-block;
+}
+div.reader div.bottom div.mymain div.book ul li a.kind{
+	width: 60px;
+	color: #333;
+	text-align: center;
+}
+div.reader div.bottom div.mymain div.book ul li a.name{
+	width: 85px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+div.reader div.bottom div.mymain div.book ul li a.author{
+	width: 85px;
+	margin-left: 10px;
+	color: #848489;
+}
+div.reader div.bottom div.mymain div.book ul li a.last{
+	width: 280px;
+	margin-left: 10px;
+	color: #526584;
+}
+div.reader div.bottom div.mymain div.book ul li span.work{
+	margin-left: 15px;
+}
+div.reader div.bottom div.mymain div.book ul li span.time{
+	margin-left: 10px;
+	font-family: Arial;
+	color: #999;
+	width: 77px;
+}
+div.reader div.bottom div.mymain div.comment{
+	padding: 20px;
+}
+div.reader div.bottom div.mymain div.comment h5{
+	color: #A20E20;
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #A20E20;
+}
+div.reader div.bottom div.mymain div.comment ul{
+	list-style: none;
+	padding: 10px 10px 0 10px;
+	margin-bottom: 0;
+}
+div.reader div.bottom div.mymain div.comment ul li{
+	border-bottom: 1px solid #ccc;
+	padding: 8px 0;
+}
+div.reader div.bottom div.mymain div.comment ul li:hover{
+	background: #F7FADF;
+}
+div.reader div.bottom div.mymain div.comment ul li div{
+	display: block;
+}
+div.reader div.bottom div.mymain div.comment ul li div.up a{
+	font-weight: bold;
+}
+div.reader div.bottom div.mymain div.comment ul li div.up span{
+	float: right;
+	margin-right: 10px;
+}
+div.reader div.bottom div.mymain div.comment ul li div.down a{
+	float: right;
+	margin-right: 10px;
+}
+div.reader div.bottom div.mymain div.comment ul li div.down span{
+	color: #999;
+}
+div.reader div.bottom div.mymain div.bbs{
+	padding: 20px;
+}
+div.reader div.bottom div.mymain div.bbs h5{
+	color: #A20E20;
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #A20E20;
+}
+div.reader div.bottom div.mymain div.bbs div.head{
+	background: #e4e8ea;
+	color: #4b7b9c;
+	margin: 10px 0;
+}
+div.reader div.bottom div.mymain div.bbs div.head span{
+	display: inline-block;
+}
+div.reader div.bottom div.mymain div.bbs div.head span.title{
+	width: 550px;
+	text-align: center;
+}
+div.reader div.bottom div.mymain div.bbs div.head span.time{
+	width: 135px;
+	margin-left: 15px;
+	text-align: center;
+}
+div.reader div.bottom div.mymain div.bbs div.head span.delete{
+	margin-left: 35px;
+}
+div.reader div.bottom div.mymain div.bbs ul{
+	list-style: none;
+	padding: 0 5px 10px 5px;
+	margin: 0;
+}
+div.reader div.bottom div.mymain div.bbs ul li{
+	border-bottom: 1px solid #ccc;
+	padding: 8px 0;
+}
+div.reader div.bottom div.mymain div.bbs ul li:hover{
+	background: #F7FADF;
+}
+div.reader div.bottom div.mymain div.bbs ul li a.title{
+	display: inline-block;
+	width: 550px;
+	text-align: center;
+}
+div.reader div.bottom div.mymain div.bbs ul li a.delbbs{
+	display: inline-block;
+	margin-left: 30px;
+}
+div.reader div.bottom div.mymain div.bbs ul li span.time{
+	width: 140px;
+	display: inline-block;
+	margin-left: 10px;
+	color: #999;
+	font-size: 14px;
+	font-style: Arial;
+}
+div.page{
+	margin: 0 0 0 60px;
+	width: 90%;
+	display: inline-block;
+}
+div.page ul{
+	clear: both;
+	padding: 0 5px 0 0;
+	margin: 5px 0 0 0;
+	float: right;
+}
+div.page ul.pagination li a{
+	background: #F9F5F5;
+}
+div.tips{
+	position: fixed;
+	z-index: 9999;
+	width: 160px;
+	height: 120px;
+	background: #fff;
+	border: 1px solid #3F3F3F;
+	border-radius: 3px;
+	text-align: center;
+	display: none;
+}
+div.tips div.top{
+	width: 100%;
+	height: 20px;
+	background: #3F3F3F;
+}
+div.tips p{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+div.tips a{
+	font-size: 14px;
+	border: 1px solid #303030;
+	width: 20px;
+	margin-top: 20px;
+	padding: 2px 10px 4px 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #3F3F3F;
+}
+
+

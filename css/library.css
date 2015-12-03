@@ -1,0 +1,126 @@
+div.head{
+	width: 980px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 100px 0 10px 0;
+}
+div.box{
+	width: 980px;
+	border: 1px solid #ccc;
+	float: left;
+	font-size: 14px;
+	background: #fbfafa;
+	padding: 10px 0;
+}
+div.box div.bz{
+	padding: 3px 15px 3px 5px;
+	float: left;
+}
+div.box a{
+	float: left;
+	margin-right: 20px;
+	padding: 3px 5px;
+}
+div.box a.active{
+	border: 1px solid #ce848d;
+	color: #a20e20;
+}
+div.lib{
+	float: left;
+	margin-top: 10px;
+	background: #fff;
+	width: 755px;
+	border: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+div.lib div.header{
+	float: left;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 0;
+	padding-bottom: 10px;
+	width: 753px;
+}
+div.lib div.header span{
+	color: #999;
+	font-size: 12px;
+}
+div.lib div.header span.kind{
+	width: 45px;
+	text-align: center;
+	padding-left: 20px;
+}
+div.lib div.header span.book{
+	padding-left: 80px;
+	width: 450px;
+	text-align: left;
+}
+div.lib div.header span.number{
+	padding-left: 285px;
+}
+div.lib div.header span.author{
+	width: 80px;
+	padding-left: 65px;
+}
+div.lib div.header span.time{
+	width: 50px;
+	padding: 43px;
+}
+div.lib ul.book{
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+}
+div.lib ul.book li{
+	border-bottom: 1px dashed #ccc;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+div.lib ul.book li span.kind a{
+	color: black;
+}
+div.lib ul.book li span.book{
+	padding-left: 20px;
+	width: 400px;
+	display: inline-block;
+}
+div.lib ul.book li span.book a.article{
+	
+	text-align: right;
+	padding-right: 3px;
+	color: #999;
+}
+div.lib ul.book li span.book a.title{
+	color: black;
+}
+div.lib ul.book li span.author{
+	padding-left: 50px;
+	display: inline-block;
+	width: 70px;
+	padding-left: 0;
+	margin-left: 45px;
+	text-align: center;
+}
+div.lib ul.book li span.author a{
+	color: #999;
+}
+div.lib ul.book li span.time{
+	margin-left: 12px;
+}
+div.lib div.page{
+	margin: 0 0 0 60px;
+	width: 90%;
+}
+div.lib div.page ul{
+	clear: both;
+	padding: 0 5px 0 0;
+	margin: 5px 0 0 0;
+	float: right;
+}
+div.lib div.page ul.pagination li a{
+	background: #F9F5F5;
+}
+

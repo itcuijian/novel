@@ -1,0 +1,385 @@
+div.contentp{
+	width: 755px;
+	height: 378px;
+	margin-top: 10px;
+	float: left;
+}
+div.contentp div.inpic{
+	float: left;
+	width: 285px;
+	height: 378px;
+}
+div.contentp div.inpic div.pbig{
+	float: left;
+}
+div.contentp div.inpic div.pbig a{
+	position: absolute;
+}
+div.contentp div.inpic div.pbig a img{
+	display: none;
+	width: 225px;
+	height: 300px;
+	overflow: hidden;
+}
+div.contentp div.inpic div.psmall{
+	float: right;
+	width: 53px;
+}
+div.contentp div.inpic div.psmall a{
+	float: right;
+	padding-bottom: 6px;
+}
+div.contentp div.inpic div.psmall a img{
+	width: 53px;
+	height: 70px;
+	overflow: hidden;
+	opacity: 0.5;
+}
+div.contentp div.inpic div.psmall a:hover img{
+	opacity: 1;
+	border: 2px solid #999;
+}
+div.contentp div.inpic div.psmall a.active img{
+	opacity: 1;
+	border: 2px solid #999;
+}
+div.contentp div.inpic div.picinfo{
+	margin-top: 310px;
+	display: none;
+}
+div.contentp div.inpic div.picinfo h4{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+div.contentp div.inpic div.picinfo p{
+	font-size: 12px;
+	text-indent: 25px;
+	margin-top: 5px;
+}
+div.contentp div.inpic div.picinfo a{
+	color: #443535;
+}
+div.contentp div.news{
+	float: right;
+	width: 460px;
+	height: 378px;
+
+}
+div.contentp div.news div.notice{
+	height: 170px;
+	padding: 0px;
+}
+div.contentp div.news div.notice h3{
+	text-align: center;
+	list-style: none;
+}
+div.contentp div.news div.notice h3 a{
+	color: #443535;
+}
+div.contentp div.news div.notice ul{
+	padding: 5px;
+}
+div.contentp div.news div.notice ul li{
+	list-style: none;
+	width: 210px;
+	margin-left: 11px;
+	margin-top: 10px;
+	float: left;
+}
+div.contentp div.news div.notice ul li a{
+	color: #443535;
+	margin-left: 3px;
+}
+div.contentp div.news div.notice ul li a span{
+	float: left;
+}
+div.contentp div.news div.newsrec{
+	margin-top: 20px;
+	padding: 0;
+}
+div.contentp div.news div.newsrec h3{
+	text-align: center;
+	list-style: none;
+}
+div.contentp div.news div.newsrec h3 a{
+	color: #443535;
+}
+div.contentp div.news div.newsrec ul{
+	padding: 5px;
+}
+div.contentp div.news div.newsrec ul li{
+	list-style: none;
+	width: 210px;
+	margin-left: 11px;
+	margin-top: 10px;
+	float: left;
+}
+div.contentp div.news div.newsrec ul li a{
+	color: #443535;
+	margin-left: 3px;
+}
+div.contentp div.news div.newsrec ul li a span{
+	float: left;
+}
+div.rec{
+	width: 765px;
+	height: 766px;
+	float: left;
+	margin-top: 10px;
+}
+div.rec h4{
+	width: 745px;
+	height: 36px;
+	font-width: bold;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	color: #A20E20;
+	line-height: 30px;
+	border-top: 7px solid #A20E20;
+	border-left: 2px solid #A20E20;
+	border-right: 2px solid #A20E20;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: 20px;
+}
+div.rec h4 a{
+	font-size: 12px;
+	float: right;
+	margin-right: 5px;
+	color: #647988;
+}
+div.rec div.list{
+	padding-top: 10px;
+}
+div.rec div.list div.nav{
+	border: 1px solid #ccc;
+	float: left;
+	width: 234px;
+	height: 350px;
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-right: 17px;
+}
+div.rec div.list div.nav h2{
+	float: left;
+	background: #526584;
+	line-height: 25px;
+	font-size: 14px;
+	color: #fff;
+	width: 78px;
+	height: 25px;
+	border-radius: 0 0 6px 0;
+}
+div.rec div.list div.nav a.more{
+	float: right;
+	font-size: 12px;
+	color: #647988;
+	margin-right: 5px;
+	margin-top: 4px;
+}
+div.rec div.list div.nav a.recpic{	
+	float: left;
+	margin: 10px 0 0 10px;
+	width: 106px;
+	height: 140px;
+}
+div.rec div.list div.nav a.recpic img{
+	width: 106px;
+	height: 140px;
+}
+div.rec div.list div.nav h3{
+	margin: 15px 0 0 100px;
+	height: 20px;
+	text-align: center;
+}
+div.rec div.list div.nav h3 a{
+	font-size: 14px;
+	float: left;
+	font-weight: bold;
+	padding-left: 10px;
+	color: #526584;
+}
+div.rec div.list div.nav p{
+	font-size: 12px;
+	text-indent: 10px;
+}
+div.rec div.list div.nav p a{
+	color: #526584;
+}
+div.rec div.list div.nav p.info{
+	text-indent: 0;
+	padding-left: 125px;
+	height: 60px;
+}
+div.rec div.list div.nav ul{
+	list-style: none;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+div.rec div.list div.nav ul li a{
+	font-size: 16px;
+	color: black;
+	line-height: 170%;
+	
+}
+div.rec div.list div.nav ul li a span{
+	float: left;
+	padding-right: 10px;
+	color: #526584;
+}
+div.rank{
+	width: 215px;
+	height: 378px;
+	margin-top: 10px;
+	float: right;
+	border: 1px solid #ccc;
+}
+div.rank ul{
+	list-style: none;
+	color: #999;
+	margin-top: 5px;
+	padding: 0 10px;
+	margin-bottom: 0;
+}
+div.rank ul li{
+	border-bottom: 1px dashed #ccc;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 12px;
+}
+div.rank ul li.last{
+	border-bottom: none;
+}
+div.rank ul li span{
+	float: left;
+	width: 20px;
+	text-align: center;
+	background: #A19C9C;
+	border-radius: 16px;
+	color: #fff;
+	font-size: 14px;
+	
+}div.rank ul li span.active{
+	background: #9D1515;
+}
+div.rank ul li a{
+	margin-left: 10px;
+	color: #443535;
+}
+div.rank ul li em{
+	float: right;
+}
+div.rank div.more{
+	text-align: right;
+	margin: 5px 10px;
+	padding-right: 4px;
+	padding-left: 5px;
+	border-top: 1px solid #ccc;
+}
+div.rank div.more a{
+	font-size: 12px;
+	line-height: 24px;
+	color: #647988;
+}
+div.upd{
+	float: left;
+	margin-top: 20px;
+	width: 745px;
+}
+div.upd h4{
+	width: 745px;
+	height: 36px;
+	font-width: bold;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	color: #A20E20;
+	line-height: 30px;
+	border-bottom: 5px solid #A20E20;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: 20px;
+}
+div.upd div.header{
+	margin-top: 10px;
+	display: block;
+	height: 22px;
+	border-bottom: 1px solid #ccc;
+}
+div.upd div.header span{
+	color: #999;
+	font-size: 12px;
+}
+div.upd div.header span.kind{
+	width: 45px;
+	text-align: center;
+	padding-left: 20px;
+}
+div.upd div.header span.book{
+	padding-left: 80px;
+	width: 450px;
+	text-align: left;
+}
+div.upd div.header span.author{
+	width: 80px;
+	padding-left: 380px;
+}
+div.upd div.header span.time{
+	width: 50px;
+	padding: 50px;
+}
+div.upd ul{
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+div.upd ul li{
+	border-bottom: 1px dashed #ccc;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	display: block;
+}
+div.upd ul li span.kind a{
+	color: black;
+}
+div.upd ul li span.book{
+	padding-left: 20px;
+	width: 420px;
+	display: inline-block;
+}
+div.upd ul li span.book a.article{
+	width: 90px;
+	text-align: right;
+	padding-right: 5px;
+	color: #999;
+}
+div.upd ul li span.book a.title{
+	color: black;
+}
+div.upd ul li span.author{
+	padding-left: 50px;
+	display: inline-block;
+	width: 70px;
+	padding-left: 0;
+	margin-left: 45px;
+	text-align: center;
+}
+div.upd ul li span.author a{
+	color: #999;
+}
+div.upd ul li span.time{
+	margin-left: 12px;
+}
+div.upd div.bott{
+	margin: 10px 0 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+div.upd div.bott a{
+	margin: 0 0 5px 655px;
+	color: #647988;
+}
+
+

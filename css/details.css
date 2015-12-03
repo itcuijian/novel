@@ -1,0 +1,298 @@
+body{
+	background: #F4F4F4;
+}
+div.header{
+	width: 100%;
+	height: 50px;
+	background: #019c73;
+}
+div.header ul{
+	list-style: none;
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+div.header ul li{
+	float: left;
+}
+div.header ul li.user{
+	float: right;
+	margin-right: 100px;
+}
+div.header ul li.user img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+div.header ul li.user:hover{
+	background: #fff;
+}
+div.header ul li a{
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	color: #cbe4db;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 46px;
+}
+div.header ul li a:hover{
+	background: #048B67;
+}
+div.main{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: ;
+	
+}
+div.main table tbody{
+	background: #fff;
+	margin-bottom: 10px;
+	display: block;
+}
+div.main table tbody tr td.left{
+	padding: 20px 20px;
+	border-right: 1px solid #eee;
+	background: #FDFDFD;
+	width: 160px;
+	vertical-align: top;
+}
+div.main table tbody tr td.left img{
+	width: 120px;
+	height: 120px;
+	border-radius: 5px;
+	vertical-align: top;
+}
+div.main table tbody tr td.left div.auth span{
+	display: block;
+	color: #999;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+div.main table tbody tr td.left div.auth span.name{
+	font-size: 18px;
+	color: #DF1818;
+	margin-left: 0;
+}
+div.main table tbody tr td.right{
+	width: 820px;
+	vertical-align: top;
+	padding: 20px 20px;
+}
+div.main table tbody tr td.right div.top{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 5px;
+}
+div.main table tbody tr td.right div.top h3{
+	font-size: 24px;
+	margin: 0;
+	color: #666;
+}
+div.main table tbody tr td.right div.top div{
+	margin-top: 5px;
+}
+div.main table tbody tr td.right div.top div span{
+	color: #B3AAAA;
+}
+div.main table tbody tr td.right div.top div span.tab{
+	padding: 0 5px;
+	color: #eee;
+}
+div.main table tbody tr td.right div.top div span.level{
+	float: right;
+	background: red;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	color: #fff;
+	border-radius: 25px;
+	padding-top: 3px;
+	text-align: center;
+	font-size: 12px;
+}
+div.main table tbody tr td.right div.top div span.levels{
+	float: right;
+	background: #999;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	color: #fff;
+	border-radius: 25px;
+	padding-top: 3px;
+	text-align: center;
+	font-size: 10px;
+}
+div.main table tbody tr td.right div.content{
+	padding-top: 20px;
+	min-height: 200px;
+}
+div.main table tbody.put{
+	border-radius: 5px;
+	background: #fff;
+}
+div.main table tbody.put tr td.right{
+	background: #ddd;
+}
+div.main table tbody.put tr td.right textarea{
+	width: 100%;
+	height: 120px;
+	border: none;
+	border-radius: 5px;
+}
+div.main table tbody.put tr td.right input{
+	width: 120px;
+	height: 40px;
+	background: #019C73;
+	color: #fff;
+	border: 1px solid #019C73;
+	border-radius: 5px;
+	margin-top: 20px;
+}div.main table tbody.put tr td.right span{
+	color: #999;
+	margin-left: 20px;
+}
+div.userinfo{
+	width: 100px;
+	height: 130px;
+	background: #fff;
+	border-left: 1px solid #019C73;
+	border-right: 1px solid #019C73;
+	border-bottom: 1px solid #019C73;
+	border-top: none;
+	position: absolute;
+	display: none;
+	overflow: hidden;
+}
+div.userinfo ul{
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0px;	
+}
+div.userinfo ul li{
+	border-bottom: 1px dashed #ccc;
+}
+div.userinfo ul li:hover{
+	background: #FCF7ED;
+}
+div.userinfo ul li p{
+	padding: 9px 0 0 3px;
+	color: #A20E20;
+}
+div.userinfo ul li p span{
+	color: #ccc;
+	margin-right: 5px;
+}
+div.foot{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	color: #919090;
+	bottom: 0;
+}
+div.foot p{
+	text-align: center;
+	font-size: 12px;
+}
+#screen{
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9998;
+	filter:alpha(opacity=30);
+	opacity: 0.3;
+	display: none;
+}
+div.login{
+	width: 470px;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	position: fixed;
+	display: none;
+	z-index: 9999;
+}
+div.login h2{
+	height: 34px;
+	margin: 0;
+	background: #c4c5c7;
+}
+div.login h2 span.closes{
+	float: right;
+	color: #fff;
+	font-size: 32px;
+	margin-right: 5px;
+	cursor: pointer;
+	padding: 0;
+	
+}
+div.login p{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0 0 10px;
+	color: #a70f22;
+}
+div.login form ul{
+	list-style: none;
+	margin: 15px 0 0 10px;
+}
+div.login form ul li{
+	margin-bottom: 10px;
+}
+div.login form ul li input.text{
+	width: 350px;
+	height: 40px;
+	padding-left: 25px;
+	border: 1px solid #ccc;
+}
+div.login form ul li input.code{
+	width: 230px;
+	height: 42px;
+	margin-left: 18px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+}
+div.login form ul li input.submit{
+	width: 350px;
+	height: 45px;
+	margin-left: 18px;
+	font-size: 20px;
+	font-style: 微软雅黑;
+	color: #fff;
+	background: #900c1c;
+	border: none;
+	border-radius: 3px;
+	letter-spacing: 2px;
+}
+
+div.login form ul li span{
+	color: #999;
+	position: relative;
+	left: 25px;
+}
+div.login form ul li img{
+	width: 104px;
+	height: 40px;
+	margin-left: 10px;
+}
+div.login form ul li a{
+	float: right;
+	margin-right: 50px;
+}
+div.page{
+	text-align: right;
+}
+div.page ul{
+	clear: both;
+	margin: 10px 0 0 0;
+}
+div.page ul.pagination li a{
+	background: #F9F5F5;
+}

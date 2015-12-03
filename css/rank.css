@@ -1,0 +1,176 @@
+div.left{
+	margin-top: 10px;
+	float: left;
+	width: 210px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #EFE7D8;
+}
+div.left div{
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+div.left div h4{
+	text-align: center;
+	margin: 0;
+	padding: 8px 0;
+	background: #D6DBDA;
+	font-weight: bold;
+	color: #A84040;
+}
+div.left div ul{
+	list-style: none;
+	padding: 5px 10px 10px;
+}
+div.left div ul li{
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 0;
+}
+div.left div ul li a{
+	color: #666;
+	font-size: 16px;
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+}
+div.left div ul li a.active{
+	background: #eee;
+	color: #CD2828;
+	text-decoration: none;
+}
+div.right{
+	float: right;
+	width: 760px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px; 
+	padding: 0 10px 20px 10px;
+	background: #F7FCFD;
+}
+div.right h3{
+	border-bottom: 2px solid #AB4040;
+	color: #AB4040;
+	padding-bottom: 10px;
+}
+div.right div.head{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+div.right div.head span{
+	color: #4b7b9c;
+}
+div.right div.head span.sort{
+	color: #A9690C;
+	display: inline-block;
+	width: 30px;
+}
+div.right div.head span.nt{
+	width: 390px;
+	display: inline-block;
+	padding-left: 75px;
+}
+div.right div.head span.kind{
+	width: 60px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+}
+div.right div.head span.number{
+	width: 50px;
+	display: inline-block;
+	margin-left: 5px;
+	text-align: center;
+}
+div.right div.head span.author{
+	width: 80px;
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+div.right div.head span.time{
+	width: 70px;
+	display: inline-block;
+	margin-left: 5px;
+	text-align: center;
+	height: 100%;
+}
+div.right ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+div.right ul li{
+	font-size: 12px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+div.right ul li:hover{
+	background: #F7FADF;
+}
+div.right ul li span.sort{
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+	font-family: Arial;
+	color: #A9690C;
+}
+div.right ul li a.kind{
+	width: 60px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+}
+div.right ul li span.nt{
+	width: 390px;
+	display: inline-block;
+}
+div.right ul li a.name{
+	width: 80px;
+	font-size: 14px;
+	color: #8a632b;
+}
+div.right ul li a.title{
+	margin-left: 10px;
+	color: #787878;
+	width: 300px;
+}
+div.right ul li span.number{
+	font-family: Arial;
+	color: #999;
+	width: 50px;
+	display: inline-block;
+	margin-left: 5px;
+	text-align: center;
+}
+div.right ul li a.author{
+	font-size: 14px;
+	color: #4b7b9c;
+	width: 80px;
+	display: inline-block;
+	margin-left: 10px;
+}
+div.right ul li span.time{
+	width: 70px;
+	display: inline-block;
+	color: #787878;
+	margin-left: 10px;
+}
+div.right div.page{
+	margin: 10px 0 0 80px;
+	width: 90%;
+}
+div.right div.page ul{
+	clear: both;
+	padding: 0 5px 0 0;
+	margin: 5px 0 0 0;
+	float: right;
+}
+div.right div.page ul.pagination li a{
+	background: #F9F5F5;
+}
+

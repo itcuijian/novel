@@ -1,0 +1,509 @@
+@CHARSET "UTF-8";
+body{
+	font-family: "微软雅黑";
+}
+#top{
+	background: #342E21;
+}
+#top div.head{
+	margin-top: 18px;
+	margin-left: 8px;
+	width: 250px;
+	float: left;
+	font-weight: bolder;
+	font-family: "黑体";
+}
+#top div.head em{
+	color: #fff;
+	font-size: 20px;
+	padding-top: 20px;
+}
+#top ul{
+	width: 200px;
+	height: 60px;
+	padding: 0;
+	list-style: none;
+	float: right;
+	color: #fff;
+}
+#top ul li{
+	float: left;
+	text-align: center;
+	height: 60px;
+	padding: 0 10px;
+	padding-top: 20px;
+	font-size: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+}
+#top ul li:hover{
+	background: #0B0A07;
+	opacity: 1;
+}
+#top div.user{
+	min-width: 100px;
+	height: 50px;
+	margin: 5px 20px 5px 0;
+	font-size: 14px;
+	background: #F3F4E9;
+	color: #342E21;
+	float: right;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+#top ul li a{
+	color: #fff;
+	margin-left: 5px;
+	font-weight: bold;
+}
+#side{
+	background: #342E21;
+	border-top: 1px solid #060604;
+}
+#side ul{
+	list-style: none;
+	color: #ccc;
+	padding: 0;
+	width: 220px;
+	font-weight: bold;
+}
+#side ul li{
+	min-height: 50px;
+	padding-top: 15px;
+	cursor: pointer;
+}
+#side ul li:hover{
+	background: #1F1B13;
+	color: #fff;
+}
+#side ul li:hover a.empty{
+	color: #fff;
+}
+#side ul li span{
+	margin-right: 5px;
+	margin-left: 20px;
+}
+#side ul li a{
+	color: #ccc;
+	text-decoration: none;
+}
+#side ul li.nslide a:hover{
+	text-decoration: underline;
+	color:#fff;
+}
+#side ul li span.s{
+	margin-left: 10px;
+}
+#side ul.box{
+	background: #5E513F;
+	display: none;
+	margin-top:15px;
+}
+#side ul.box li{
+	padding-left: 45px;
+}
+#side ul.box li:hover{
+	background: #493F31;
+}
+#side ul.box li:hover a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+#main{
+	background: #F7EFE1;
+}
+#main h3{
+	width: 85%;
+	margin: 20px auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+#main div.top{
+	width: 85%;
+	height: 30px;
+	background: #E2D8D8;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+#main div.top div{
+	color: #666;
+	margin-left: 20px;
+	padding-top: 5px;
+	font-weight: bold;
+	min-width: 200px;
+	float: left;
+}
+#main div.top div span{
+	padding: 0 8px;
+	font-size: 12px;
+	color: #aaa;
+}
+#main div.top form{
+	float: right;
+	margin-right: 20px;
+}
+#main div.top form input{
+	border: none;
+	margin-top: 4px;
+	height: 22px;
+}
+#main div.top form input.text{
+	width: 200px;
+	border-radius: 3px;
+}
+#main div.top form input.sub{
+	background: #666;
+	color: #fff;
+	width: 40px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+#main div.top a.add{
+	margin-top: 4px;
+	margin-right: 10px;
+	min-width: 48px;
+	height: 22px;
+	background: #666;
+	color: #fff;
+	border-radius: 3px;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 1px 6px 0 6px;
+}
+#main div.content{
+	width: 85%;
+	min-height: 400px;
+	margin: 15px auto;		
+	background: #fff;
+	padding: 10px;
+	border-radius: 3px;
+}
+#main div.det{
+	min-height: 330px;
+}
+#main div.content table{
+	width: 100%;
+}
+#main div.content table tr:hover{
+	background: #ffffcc;
+}
+#main div.content table tr.top:hover{
+	background: #fff;
+}
+#main div.content table tr th,#main div.content table tr td{
+	text-align: center;
+	line-height: 30px;
+}
+#main div.content table tr th{
+	border-bottom: 2px solid #ccc;
+	font-size: 16px;
+}
+#main div.content table tr td{
+	border-bottom: 1px solid #ccc;
+}
+#main div.content table tr td span{
+	color: #811a37;
+	font-weight: bold;
+}
+#main div.content h4{	
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+	margin: 0 0 20px 0;
+	color: #860B0B;
+	font-weight: bold;
+	background: #E5D8D8;
+}
+#main div.content h4.title{	
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	color: #860B0B;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+#main div.content div.img{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#main div.content div.img img{
+	width: 180px;
+	height: 240px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+#main div.content div.details{
+	display: block;
+	height: 30px;
+}
+#main div.content div.details div{
+	float: left;
+}
+#main div.content div.details div label{
+	color: #860B0B;
+}
+#main div.content div.details div span{
+	color: #666;
+	margin-right: 10px;
+}
+#main div.content div.details div span.line{
+	color: #ccc;
+}
+#main div.content div.info{
+	height: 170px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+#main div.content div.info span{
+	color: #666;
+}
+#main div.content div.litle{
+	text-align: center;
+}
+#main div.content div.litle div span{
+	margin-right: 5px;
+	color: #555;
+}
+#main div.content div.litle div span.line{
+	color: #ccc;
+}
+#main div.content div.message{
+	margin-top: 15px;
+	padding: 0 50px;
+}
+#main div.content div.work{
+	text-align: center;
+	margin-top: 40px;
+}
+#main div.content div.work form input{
+	min-width: 45px;
+	min-height: 40px;
+	font-size: 20px;
+	background: #019c73;
+	border: 1px solid #019c73;
+	border-radius: 4px;
+	color: #fff;
+	margin-right: 10px;
+	font-weight: bold;
+}
+#main div.content div.work form input:hover{
+	background: #03916C;
+}
+#main div.content div.prev{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#main div.content form div.form{
+	margin-left: 210px;
+}
+#main div.content form input{
+	min-width: 35px;
+	height: 30px;
+	font-size: 16px;
+	background: #019c73;
+	border: 1px solid #019c73;
+	border-radius: 4px;
+	color: #fff;
+	margin-right: 10px;
+}
+#main div.content form input:hover{
+	background: #03916C;
+}
+#main div.content form a{
+	margin-right: 10px;
+}
+#main div.content div.page{
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+}
+#main div.content div.page ul{
+	padding: 0 5px 0 0;
+	margin: 5px 0 0 0;
+}
+#main div.content div.page ul.pagination li a{
+	background: #F9F5F5;
+}
+#main div.content div.bbs{
+	margin: 20px;
+}
+#main div.content div.bbs div.litlebox{
+	border-bottom: 1px solid #ccc;
+}
+#main div.content div.bbs div.litlebox span{
+	margin-right: 5px;
+}
+#main div.content div.bbs div.litlebox span.line{
+	color: #ccc;
+}
+#main div.content div.bbs span.contentbox{
+	text-indent: 28px;
+}
+#main div.content div.bbs form{
+	margin-left: 28px;
+	margin-top: 10px;
+}
+#main div.oprate{
+	background: #fff;
+	min-width: 430px;
+	padding: 15px 0;
+	border-radius: 6px;
+	border: 1px solid #333;
+	box-shadow: 0 3px 6px #333;
+	z-index: 9999;
+	display: none;
+	position: absolute;
+	margin-bottom: 30px;
+}
+#main div.oprate h4{
+	font-size: 16px;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 10px 15px;
+	font-weight: bold;
+}
+#main div.oprate h4 span.d{
+	float: right;
+	color: #ddd;
+	font-size: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+#main div.oprate h4 span.d:hover{
+	color: #bbb;
+}
+#main div.oprate div{
+	margin-top: 10px;
+	padding: 0 15px;
+}
+#main div.oprate div label{
+	display: block;
+}
+#main div.oprate div p.info{
+	color: #777;
+}
+#main div.oprate div input.txt{
+	width: 400px;
+	height: 35px;
+	border: 1px solid #ccc;
+	color: #555;
+	border-radius: 4px;
+	padding: 3px 10px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+#main div.oprate div textarea.sim{
+	width: 400px;
+	height: 80px;
+	border: 1px solid #ccc;
+	color: #555;
+	border-radius: 4px;
+	padding: 3px 10px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+#main div.oprate div input.submit{
+	width: 60px;
+	height: 30px;
+	font-size: 16px;
+	background: #019c73;
+	border: 1px solid #019c73;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+}
+#main div.oprate div input.submit:hover{
+	background: #03916C;
+}
+#main div.oprate div select{
+	width: 400px;
+	height: 35px;
+	border: 1px solid #ccc;
+	color: #555;
+	border-radius: 4px;
+	padding: 3px 10px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+#main div.oprate div span.closes{
+	width: 60px;
+	height: 30px;
+	padding: 3px 6px;
+	border: 2px solid #019c73;
+	color: #019c73;
+	font-weight: bold;
+	border-radius: 4px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#main div.oprate div span.closes:hover{
+	background: #D7C6C6;
+}
+#main div.screen{
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0.3;
+	background: #000;
+	display: none;
+	z-index: 9998;
+}
+#login fieldset{
+	margin: 5% auto;
+	width: 450px;
+	padding-top: 20px;
+	box-shadow: 1px 4px 7px #999;
+	background: #fff;
+	border-radius: 6px;
+	border: 1px solid #eee;
+}
+#login fieldset legend{
+	color: #9B5A39;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 0 5px;
+	background: #fff;
+}
+#login fieldset div{
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	width: 421px;
+}
+#login fieldset div label{
+	font-weight: bold;
+	color: #555;
+}
+#login fieldset div input.text{
+	width: 400px;
+	height: 35px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	color: #555;
+	border-radius: 4px;
+	padding: 3px 10px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	font-size: 16px;
+}
+#login fieldset div p{
+	color: #777;
+	margin: 0;
+}
+#login fieldset div input.submit{
+	width: 75px;
+	height: 40px;
+	font-size: 22px;
+	background: #019c73;
+	border: 1px solid #019c73;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+}
+#login fieldset div input.submit:hover{
+	background: #03916C;
+}

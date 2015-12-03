@@ -1,0 +1,330 @@
+body{
+	background: #F4F4F4;
+}
+div.header{
+	width: 100%;
+	height: 50px;
+	background: #019c73;
+}
+div.header ul{
+	list-style: none;
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+div.header ul li{
+	float: left;
+}
+div.header ul li.user{
+	float: right;
+	margin-right: 100px;
+}
+div.header ul li.user img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+div.header ul li.user:hover{
+	background: #fff;
+}
+div.header ul li a{
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	color: #cbe4db;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 46px;
+}
+div.header ul li a:hover{
+	background: #048B67;
+}
+div.main{
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	background: #fff;
+	border-radius: 5px;
+}
+div.main h3{
+	margin: 0;
+	padding: 20px 0 10px 10px;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	font-size: 18px;
+	font-weight: bold;
+	color: #A10808;
+}
+div.main table.show{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 960px;
+	border-top: 1px solid #eee;
+
+}
+div.main table.show tbody{
+	border-bottom: 1px solid #eee;
+	width: 960px;
+	display: block;
+}
+div.main table.show tbody:hover{
+	background: #eee;
+}
+div.main table.show tr td,div.main table.show tr td{
+	height: 85px;
+}
+div.main table.show tr td.face{
+	padding: 0 15px;
+}
+div.main table.show tr td.face img{
+	width: 50px;
+	height: 50px;
+	border-radius: 4px;
+}
+div.main table.show tr th{
+	vertical-align: top;
+	padding-left: 10px;
+	padding-top: 17px;
+	width: 745px;
+}
+div.main table.show tr th h4{
+	margin: 0;
+	font-weight: bold;
+}
+div.main table.show tr th h4 a.notice{
+	color: #CD2020;
+}
+div.main table.show tr th h4 a.normal{
+	color: #4D5F84;
+}
+div.main table.show tr th div.info{
+	margin-top: 10px;
+}
+div.main table.show tr th div.info span{
+	color: #c0c0c0;
+	font-weight: normal;
+}
+div.main table.show tr th div.info span.pipe{
+	padding: 0 5px;
+	color: #eee;
+}
+div.main table.show tr th div.info span.time{
+	padding-left: 6px;
+	font-family: Arial;
+}
+div.main table.show tr td.tail{
+	width: 135px;
+	vertical-align: top;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+div.main table.show tr td.tail span{
+	display: block;
+	color: #ccc;
+}div.main table.show tr td.tail span.normal{
+	text-align: right;
+	font-size: 20px;
+}
+div.main table.show tr td.tail span.notice{
+	color: #D53131;
+	text-align: right;
+	font-size: 20px;
+}
+div.main table.show tr td.tail span.out{
+	margin-top: 10px;
+	text-align: right;	
+}
+div.publish{
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+div.publish h5{
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 9px;
+}
+div.publish h5 span{
+	border-bottom: 5px solid #019C73;
+	padding: 5px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #999;
+}
+div.publish ul{
+	list-style: none;
+	padding-left: 0;
+	padding-top: 10px;
+}
+div.publish ul li{
+	margin-bottom: 10px;
+}
+div.publish ul li input{
+	width: 450px;
+	height: 30px;
+	border: 1px solid #E0DDDD;
+	border-radius: 5px;
+	padding-left: 5px;
+}
+div.publish ul li span.know{
+	color: #666;
+	margin-left: 15px;
+	font-weight: bold;
+}
+div.publish ul li span.cke_reset{
+	height: 350px;
+}
+div.publish ul li input.submit{
+	width: 120px;
+	height: 40px;
+	background: #019C73;
+	color: #fff;
+	border: 1px solid #019C73; 
+}
+div.userinfo{
+	width: 100px;
+	height: 130px;
+	background: #fff;
+	border-left: 1px solid #019C73;
+	border-right: 1px solid #019C73;
+	border-bottom: 1px solid #019C73;
+	border-top: none;
+	position: absolute;
+	display: none;
+	overflow: hidden;
+}
+div.userinfo ul{
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0px;	
+}
+div.userinfo ul li{
+	border-bottom: 1px dashed #ccc;
+}
+div.userinfo ul li:hover{
+	background: #FCF7ED;
+}
+div.userinfo ul li p{
+	padding: 9px 0 0 3px;
+	color: #A20E20;
+}
+div.userinfo ul li p span{
+	color: #ccc;
+	margin-right: 5px;
+}
+div.foot{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	color: #919090;
+	bottom: 0;
+}
+div.foot p{
+	text-align: center;
+	font-size: 12px;
+}
+#screen{
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9998;
+	filter:alpha(opacity=30);
+	opacity: 0.3;
+	display: none;
+}
+div.login{
+	width: 470px;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	position: fixed;
+	display: none;
+	z-index: 9999;
+}
+div.login h2{
+	height: 34px;
+	margin: 0;
+	background: #c4c5c7;
+}
+div.login h2 span.closes{
+	float: right;
+	color: #fff;
+	font-size: 32px;
+	margin-right: 5px;
+	cursor: pointer;
+	padding: 0;
+	
+}
+div.login p{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0 0 10px;
+	color: #a70f22;
+}
+div.login form ul{
+	list-style: none;
+	margin: 15px 0 0 10px;
+}
+div.login form ul li{
+	margin-bottom: 10px;
+}
+div.login form ul li input.text{
+	width: 350px;
+	height: 40px;
+	padding-left: 25px;
+	border: 1px solid #ccc;
+}
+div.login form ul li input.code{
+	width: 230px;
+	height: 42px;
+	margin-left: 18px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+}
+div.login form ul li input.submit{
+	width: 350px;
+	height: 45px;
+	margin-left: 18px;
+	font-size: 20px;
+	font-style: 微软雅黑;
+	color: #fff;
+	background: #900c1c;
+	border: none;
+	border-radius: 3px;
+	letter-spacing: 2px;
+}
+
+div.login form ul li span{
+	color: #999;
+	position: relative;
+	left: 25px;
+}
+div.login form ul li img{
+	width: 104px;
+	height: 40px;
+	margin-left: 10px;
+}
+div.login form ul li a{
+	float: right;
+	margin-right: 50px;
+}
+div.page{
+	text-align: right;
+	padding-right: 10px;
+}
+div.page ul{
+	clear: both;
+	padding: 0 5px 0 0;
+	margin: 5px 0 0 0;
+}
+div.page ul.pagination li a{
+	background: #F9F5F5;
+}

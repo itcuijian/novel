@@ -1,0 +1,74 @@
+body{
+	background: #F5E1BA;
+}
+div.back{
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+div.back a{
+	font-size: 14px;
+	color: #333;
+}
+div.back label{
+	color: #cd3a00;
+}
+div.cata{
+	float: left;
+	width: 980px;
+	margin-top: 20px;
+	background: #fff2d9;
+	box-shadow: 0 0 5px #D3BFBF;
+	padding-bottom: 40px;
+}
+div.cata div.mar{
+	width: 100%;
+	height: 30px;
+}
+div.cata h1{
+	font-size: 32px;
+	font-weight: normal;
+	font-family: "宋体";
+	color: #303030;
+	text-align: center;
+}
+div.cata span.author{
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	display: block;
+}
+div.cata div.volume{
+	margin-top: 30px;
+}
+div.cata div.volume h5{
+	font-size: 16px;
+	font-weight: bold;
+	color: #222;
+	text-align: center;
+}
+div.cata div.volume span{
+	width: 900px;
+	height: 2px;
+	display: block;
+	margin: 0 40px;
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 0 3px #666;
+}
+div.cata div.volume ul{
+	margin-top: 20px;
+	list-style: none;
+	width: 100%;
+	padding: 0 40px;
+}
+div.cata div.volume ul li{
+	width: 300px;
+	height: 35px;
+	padding-top: 6px;
+	padding-left: 30px;
+	float: left;
+	border-bottom: 1px solid #ddd;
+}
+div.cata div.volume ul li a{
+	color: #222;
+}

@@ -1,0 +1,31 @@
+table.notice{
+	margin: 20px 0 0 20px;
+}
+table.notice tr{
+	margin-bottom: 10px;
+	display: block;
+}
+table.notice tr td div{
+	width: 500px;
+	display: block;
+}
+table.notice tr td.left{
+	vertical-align: top;
+	width: 51px;
+}
+table.notice tr td span{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: bold;
+}
+table.notice tr td input.text{
+	width: 500px;
+}
+table.notice tr td input.submit{
+	width: 80px;
+	height: 33px;
+	background: #019C73;
+	color: #fff;
+	border: 1px solid #019C73;
+	border-radius: 3px;
+}

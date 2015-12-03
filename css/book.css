@@ -1,0 +1,236 @@
+div.book{
+	width: 980px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	padding: 15px 0 5px 0;
+	float: left;
+	background: #fff;
+}
+div.book a.photo{
+	margin: 0 0 0 15px;
+	float: left;
+}
+div.book a.photo img{
+	width: 172px;
+	height: 233px;
+}
+div.book div.main{
+	float: left;
+	margin-left: 26px;
+	width: 739px;
+}
+div.book div.main h1{
+	font-size: 28px;
+	text-align: center;
+}
+div.book div.main h1 a{
+	color: #303030;
+}
+div.book div.main div.top{
+	background: #DDDCDC;
+	height: 22px;
+	line-height: 21px;
+	padding-left: 20px;
+}
+div.book div.main div.top label{
+	padding: 0 10px 3px 10px;
+}
+div.book div.main p{
+	height: 146px;
+	overflow: hidden;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #828181;
+	line-height: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+div.book div.work{
+	float: left;
+	width: 172px;
+	margin: 10px 0 0 15px;
+}
+div.book div.work a{
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 28px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	color: #c9142a;
+}
+div.book div.work a:hover{
+	text-decoration: none;
+	background: #c9142a;
+	color: #fff;
+}
+div.book div.key{
+	float: left;
+	margin: 10px 0 0 26px;
+	font-size: 16px;
+	width: 739px;
+}
+div.book div.key a{
+	margin-right: 10px;
+}
+div.book div.latest{
+	width: 739px;
+	height: 45px;
+	border: 1px solid #F7E4E4;
+	float: left;
+	margin: 10px 0 0 26px;
+}
+div.book div.latest span{
+	width: 85px;
+	height: 43px;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	background: #F7E4E4;
+	padding: 10px 0 0 5px;
+	color: #999;
+	float: left;
+}
+div.book div.latest a{
+	margin-left: 5px;
+	width: 645px;
+	height: 43px;
+	display: block;
+	float: left;
+}
+div.comment{
+	width: 980px;
+	margin-top: 10px;
+	background: #fff;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+div.comment h3{
+	margin: 0;
+	font-size: 18px;
+	color: #A20E20;
+	border-bottom: 2px solid #A20E20;
+	padding-bottom: 5px;
+}
+div.comment table{
+	padding: 0 40px;
+	display: block;
+}
+div.comment table tbody{
+	margin-top: 10px;
+	display: block;
+	padding: 5px;
+}
+div.comment table tbody tr td.left{
+	vertical-align: top;
+}
+div.comment table tbody tr td.left img{
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+}
+div.comment table tbody tr td.right{
+	padding-left: 10px;
+	vertical-align: top;
+	width: 900px;
+}
+div.comment table tbody tr td.right div.top{
+	width: 800px;
+	background: #F2CFCF;
+	padding: 0 5px;
+	color: #666;
+	line-height: 26px;
+}
+div.comment table tbody tr td.right div.top span.line{
+	padding: 0 20px;
+	color: #eee;
+}
+div.comment table tbody tr td.right div.content{
+	margin-top: 20px;
+	text-indent: 24px;
+	width: 800px;
+	word-wrap: break-word;
+	padding: 0 10px;
+	min-height: 50px;
+}
+div.comment table tbody tr td div.noCom{
+	width: 800px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 10px auto;
+}
+div.comment div.publish{
+	width: 840px;
+	margin: 5px auto;
+	background: #E8D2D2;
+	padding: 0 30px;
+}
+div.comment div.publish textarea{
+	width: 600px;
+	height: 100px;
+	margin: 20px auto;
+}
+div.comment div.publish a{
+	float: right;
+	margin-top: 50px;
+	width: 80px;
+	height: 40px;
+	background: #676161;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	letter-spacing: 5px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+}
+div.tips{
+	position: fixed;
+	z-index: 9999;
+	width: 160px;
+	height: 120px;
+	background: #fff;
+	border: 1px solid #3F3F3F;
+	border-radius: 3px;
+	text-align: center;
+	display: none;
+}
+div.tips div.top{
+	width: 100%;
+	height: 20px;
+	background: #3F3F3F;
+}
+div.tips p{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+div.tips a{
+	font-size: 14px;
+	border: 1px solid #303030;
+	width: 20px;
+	margin-top: 20px;
+	padding: 2px 10px 4px 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #3F3F3F;
+}
+div.comment div.page{
+	margin: 10px auto;
+	width: 850px;
+	height: 40px;
+	display: block;
+}
+div.comment div.page ul{
+	clear: both;
+	padding: 0 5px 0 0;
+	margin: 5px;
+	float: right;
+}
+div.comment div.page ul.pagination li a{
+	background: #F9F5F5;
+}

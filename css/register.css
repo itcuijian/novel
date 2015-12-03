@@ -1,0 +1,61 @@
+div.register{
+	margin-top: 100px;
+	padding: 0;
+	padding-bottom: 20px;
+	background: #FDF4E2;
+}
+div.register h3{
+	height: 50px;
+	margin: 0 50px;
+	padding-top: 20px;
+	border-bottom: 2px solid #A20E20;
+	text-align: center;
+	color: #8E1818;
+}
+div.register form ul{
+	list-style: none;
+	margin: 20px;
+	padding-left: 130px;
+	font-size: 18px;
+}
+div.register form ul li{
+	margin-bottom: 20px;
+}
+div.register form ul li label{
+	width: 100px;
+	text-align: right;
+}
+div.register form ul li input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ccc;
+	background: #FDF4E2;
+	outline: none;
+	width: 520px;
+	height: 40px;
+	padding-right: 20px;
+}
+div.register form ul li input.code{
+	width: 380px;
+}
+div.register form ul li input.submit{
+	border: 1px solid #ccc;
+	background: #38C2A8;
+	width: 100px;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 100px;
+	padding: 0;
+	
+}
+div.register form ul li span{
+	position: relative;
+	right: 25px;
+	color: #ccc;
+}
+div.register form ul li img{
+	width: 104px;
+	height: 40px;
+	margin-left: 30px;
+}

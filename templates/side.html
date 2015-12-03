@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8">
+	<title>siderbar</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/admin.css" />
+</head>
+<body id="side">
+	<ul class="">
+		<li class="li">
+			<span class="glyphicon glyphicon-user"></span>
+			<a class="empty">用户管理</a>
+			<span class="glyphicon glyphicon-menu-down s"></span>
+			<ul class="box">
+				<li><a href="../admin/manage.php?action=show" target="main">后台会员管理</a></li>
+				<li><a href="../admin/admin_author.php?action=show" target="main">作者用户管理</a></li>
+				<li><a href="../admin/admin_reader.php?action=show" target="main">读者用户管理</a></li>
+			</ul>
+		</li>
+		<li class="li">
+			<span class="glyphicon glyphicon-book"></span>
+			<a class="empty">作品管理</a>
+			<span class="glyphicon glyphicon-menu-down s"></span>
+			<ul class="box">
+				<li><a href="../admin/kind.php?action=show" target="main">作品类别管理</a></li>
+				<li><a href="../admin/book.php?action=show" target="main">作品内容管理</a></li>
+				<li><a href="../admin/section.php?action=show" target="main">章节管理</a></li>
+			</ul>
+		</li>
+		<li class="li">
+			<span class="glyphicon glyphicon-file"></span>
+			<a class="empty">论坛管理</a>
+			<span class="glyphicon glyphicon-menu-down s"></span>
+			<ul class="box">
+				<li><a href="../admin/bbs.php?action=show" target="main">主题帖子管理</a></li>
+				<li><a href="../admin/comment.php?action=show" target="main">评论管理</a></li>
+			</ul>
+		</li>
+		<li class="li">
+			<span class="glyphicon glyphicon-wrench"></span>
+			<a class="empty">系统管理</a>
+			<span class="glyphicon glyphicon-menu-down s"></span>
+			<ul class="box">
+				<li><a href="../admin/delfile.php?action=templates" onclick="return confirm('确定删除？')?true:false" target="main">清空系统编译文件</a></li>
+				<li><a href="../admin/delfile.php?action=cache" onclick="return confirm('确定删除？')?true:false" target="main">清空系统缓存文件</a></li>
+			</ul>
+		</li>
+		<li class="nslide">
+			<span class="glyphicon glyphicon-bullhorn"></span>
+			<a href="../admin/notice.php?action=notice" target="main">公告管理</a>
+		</li>
+		<li class="nslide">
+			<span class="glyphicon glyphicon-thumbs-up"></span>
+			<a href="../admin/recommend.php?" target="main">推荐管理</a>
+		</li>
+	</ul>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/side.js"></script>
+</html>
